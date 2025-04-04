@@ -1,5 +1,11 @@
 # internetTECH-firstRepo
-[UI/UX Design Link](https://www.figma.com/design/fJKJbzhizkRyN3xVDUHCQY/Esraa-Alaa-El-Din's-team-library?node-id=2334-465&m=dev&t=2RJhxpBZQFp50oSH-1)
+
+## Project Design
+
+You can view the design and prototype for the project on [Figma](https://www.figma.com/design/fJKJbzhizkRyN3xVDUHCQY/Esraa-Alaa-El-Din's-team-library?node-id=2334-465&m=dev&t=2RJhxpBZQFp50oSH-1).
+
+Feel free to explore the interactive mockups and collaborate directly through the platform.
+
 ## Project Resources
 
 Here are some important resources related to the project:
