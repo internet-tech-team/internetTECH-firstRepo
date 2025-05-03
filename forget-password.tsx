@@ -22,7 +22,7 @@ export default function ForgetPasswordPage() {
                             Cancel
                         </Link>
                         <Link href='/reset-password'>
-                        <button className="bg-[#DAABBC] text-black py-3 px-3 rounded hover:bg-[#c799ab]">
+                        <button className="bg-[#DAABBC] text-white py-3 px-3 rounded hover:bg-[#c799ab]">
                             Reset Password
                         </button>
                         </Link>

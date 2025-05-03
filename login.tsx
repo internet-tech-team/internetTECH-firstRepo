@@ -27,10 +27,10 @@ return (
                     />
                     <Link href='/forget-password' className="text-sm text-[#DAABBC] hover:underline mb-4 self-end block">
                     Forgot Password?</Link>
-                    <button className="bg-[#DAABBC] text-black py-3 px-3 rounded hover:bg-[#c799ab]">
+                    <button className="bg-[#DAABBC] text-white py-3 px-3 rounded hover:bg-[#c799ab]">
                         Sign In
                     </button>
-                    <p className="mt-4 text-sm text-gray-700">
+                    <p className="mt-4 text-sm text-[#557C55]">
                         Don't have an account?{''}
                         <a href= '/signup' className="text-[#DAABBC] font-semibold hover:underline">
                         create one

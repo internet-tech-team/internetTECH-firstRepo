@@ -44,13 +44,15 @@ return (
     </div>
 
   {/* Message below the OTP Boxes */}
+    <Link href='/otp'>
     <div className="mt-4 text-lg text-[#557C55] hover:underline cursor-pointer">
     Can't find code? Send OTP again!
         
 
     </div>
+    </Link>
     {/* Confirm label */}
-    <div className="py-3 px-3 flex items-center justify-center bg-[#DAABBC] text-white font-semibold text-xl rounded-md shadow-lg hover:bg-[#4a6d46] focus:outline-none">
+    <div className="py-3 px-3 flex items-center justify-center bg-[#DAABBC] text-white text-xl rounded shadow-lg hover:bg-[#c799ab] focus:outline-none">
     Confirm
     </div>
 
