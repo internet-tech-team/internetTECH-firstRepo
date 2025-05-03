@@ -24,11 +24,11 @@ export default function ForgetPasswordPage2() {
                         placeholder="current password"
                     />
                     <div className="flex justify-center w-full mt-5">
-                        <Link href='/otp'>
+                        {/* <Link href='/otp'> */}
                         <button className="bg-[#DAABBC] text-black py-3 px-3 rounded hover:bg-[#c799ab]">
                             Confirm
                         </button>
-                        </Link>
+                        {/* </Link> */}
                     </div>
 
                 </div>
