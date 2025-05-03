@@ -44,7 +44,7 @@ return (
     </div>
 
   {/* Message below the OTP Boxes */}
-    <div className="mt-4 text-lg text-[#557C55] cursor-pointer">
+    <div className="mt-4 text-lg text-[#557C55] hover:underline cursor-pointer">
     Can't find code? Send OTP again!
         
 
