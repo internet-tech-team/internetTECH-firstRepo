@@ -1,12 +1,12 @@
 import TrapezoidCard from "@/components/TrapezoidCard";
 import Link from "next/link";
-export default function ForgetPasswordPage() {
+export default function ForgetPasswordPage2() {
     return(
             <div className=" flex items-center justify-center min-h-screen bg-[#FEFCF8] relative">
                 <div className="relative w-[900px] h-[500px] flex items-center justify-between">
       {/* Rectangle on the left */}
                 <div className="w-[400px] h-[500px] bg-[#FBF9EC] rounded-l-2xl flex items-center justify-center shadow-lg z-10">
-                    <img src="/cat2.png" alt="Cat" className="w-full h-auto" />
+                    <img src="/cat1.png" alt="Cat" className="w-full h-auto" />
                 </div>
 
                 <TrapezoidCard> 
@@ -14,16 +14,19 @@ export default function ForgetPasswordPage() {
                 {/* <img src="/logo.png" alt="logo" className="w-50" /> */}
                     <h2 className="text-2xl font-bold text-black mb-4">Sign In</h2>
                     <input
+                        type="password"
                         className="mb-3 p-2 border text-black border-gray-300 rounded w-4/5"
-                        placeholder="Email"
+                        placeholder="New password"
+                    />
+                    <input
+                        type="password"
+                        className="mb-3 p-2 border text-black border-gray-300 rounded w-4/5"
+                        placeholder="current password"
                     />
                     <div className="flex justify-center w-full mt-5">
-                        <Link href="/login" className="text-md text-black py-3 px-3 ">
-                            Cancel
-                        </Link>
-                        <Link href='/reset-password'>
+                        <Link href='/otp'>
                         <button className="bg-[#DAABBC] text-black py-3 px-3 rounded hover:bg-[#c799ab]">
-                            Reset Password
+                            Confirm
                         </button>
                         </Link>
                     </div>
